@@ -35,22 +35,14 @@ export const ChatHelp: FC<ChatHelpProps> = ({}) => {
           <div className="flex space-x-2">
             <Link
               className="cursor-pointer hover:opacity-50"
-              href="https://twitter.com/ChatbotUI"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <IconBrandX />
-            </Link>
-
-            <Link
-              className="cursor-pointer hover:opacity-50"
-              href="https://github.com/mckaywrigley/chatbot-ui"
+              href="https://github.com/CoreViewInc/corechat-ui"
               target="_blank"
               rel="noopener noreferrer"
             >
               <IconBrandGithub />
             </Link>
           </div>
+          <div>Version 20240404</div>
 
           <div className="flex space-x-2">
             <Announcements />
